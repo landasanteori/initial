@@ -10,7 +10,8 @@ apt install nodejs npm -y
 composer create-project --prefer-dist laravel/laravel laravelapp
 cd laravelapp
 php artisan key:generate
-php artisan 
+php artisan migrate
+composer run dev
 
 
 
